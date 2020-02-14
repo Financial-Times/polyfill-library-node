@@ -1,0 +1,18 @@
+{
+	"description": "An alternative to core-js for nodeJS environments",
+	"origamiType": null,
+	"origamiVersion": 1,
+	"keywords": [
+		"node",
+		"polyfill",
+		"corejs",
+		"bundle",
+		"js"
+	],
+	"support": "https://github.com/Financial-Times/polyfill-library-node/issues",
+	"supportStatus": "active",
+	"supportContact": {
+		"email": "origami.support@ft.com",
+		"slack": "financialtimes/origami-support"
+	}
+}
