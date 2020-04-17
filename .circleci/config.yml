@@ -8,7 +8,6 @@ jobs:
       - checkout
       - run: npm ci
       - run: npm run lint
-      - run: npx @commitlint/cli --from=origin/master --to=HEAD --verbose
   tests:
     docker:
       - image: circleci/node:10
@@ -22,7 +21,6 @@ jobs:
     steps:
       - checkout
       - run: npm ci
-      - run: npm run semantic-release
 
 workflows:
   test:
