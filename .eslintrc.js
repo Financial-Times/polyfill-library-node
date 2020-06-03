@@ -1,11 +1,11 @@
 module.exports = {
-  plugins: ["prettier", 'node'],
+  plugins: ["prettier", "node"],
   parserOptions: {
-    ecmaVersion: 2017,
+    ecmaVersion: 2017
   },
   env: {
     node: true,
-    es6: true,
+    es6: true
   },
   rules: {
     "node/exports-style": "error",
@@ -32,6 +32,6 @@ module.exports = {
     "no-this-before-super": 2,
     "no-var": 2,
     "prefer-const": 1,
-    "no-const-assign": 2,
-  },
+    "no-const-assign": 2
+  }
 };
