@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "prepare": "npm run build",
     "postshrinkwrap": "npm run build",
-    "test": "mocha tests.js"
+    "test": "npm run build && npm run lint && mocha tests.js"
   },
   "keywords": [
     "polyfill",
